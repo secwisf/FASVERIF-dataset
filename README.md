@@ -1,4 +1,4 @@
-# Datasets for "Automated Inference on the Financial Security of Ethereum Smart Contracts"
+# Datasets for "Automated Inference on Financial Security of Ethereum Smart Contracts"
 
 # Real World Dataset
 This dataset consists of real-world smart contracts crawled from Etherscan (https://etherscan.io).

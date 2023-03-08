@@ -26,12 +26,3 @@ Specifically, the contracts in ***overflow*** are collected from https://github.
 the contracts in ***transaction_order_dependency*** is collected from https://drive.google.com/file/d/1190VXwu502M-vgT8yyuFp0lFUVlxnMhO/view?usp=sharing,
 the rest of contracts are from https://github.com/gongbell/ContractFuzzer and https://github.com/smartbugs/smartbugs.
 We filter out contracts with incomplete codes and contracts that are not currently supported by FASVERIF.
-
-The xlsx files are summaries of contracts with different types of vulnerabilities and the verification results of different tools on these contracts. 
-Specifially, ***gs_result.xlsx*** is corresponding to ***gasless_send***, ***over_result.xlsx*** is corresponding to ***overflow***, ***r_result.xlsx*** is corresponding to ***reentrancy***, ***td_result.xlsx*** is corresponding to ***timestamp_dependency***, and ***tod_result.xlsx*** is corresponding to ***transaction_order_dependency***.
-
- |column      |description|
- |:---        |:---|
- |sol         |name of a `.sol` file|
- |toolname    |the verification result of the corresponding tool on this contract, N means negative, i.e., without this kind of vulnerabilities, and P means the opposite
-
